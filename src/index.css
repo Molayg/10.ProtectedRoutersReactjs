@@ -1,0 +1,84 @@
+:root {
+  --primary: rgb(44, 128, 230);
+  --secondary: rgb(238, 238, 238);
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: var(--secondary);
+  background-color: var(--primary);
+}
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.4s;
+}
+a:hover {
+  color: orange;
+}
+
+main {
+  min-height: 700px;
+  display: grid;
+  place-content: center;
+}
+.activa {
+  color: orange;
+}
+
+:root {
+  --primary: rgb(19, 19, 19);
+  --secondary: rgb(238, 238, 238);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--secondary);
+  background-color: var(--primary);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.4s;
+}
+
+a:hover {
+  color: orange;
+}
+
+main {
+  min-height: 600px;
+  display: grid;
+  place-items: center;
+}
+
+.homelink.active {
+  color: orange;
+}
+
+.contactlink.active {
+  color: green;
+}
+
+.aboutlink.active {
+  color: blue;
+}
