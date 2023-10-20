@@ -1,17 +1,17 @@
 :root {
-  --primary: rgb(44, 128, 230);
-  --secondary: rgb(238, 238, 238);
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+body {
+  color: wheat;
+  background-color: #353556;
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  color: var(--secondary);
-  background-color: var(--primary);
-}
+
 ul {
   list-style-type: none;
 }
@@ -25,32 +25,10 @@ a:hover {
   color: orange;
 }
 
-main {
-  min-height: 700px;
-  display: grid;
-  place-content: center;
-}
 .activa {
   color: orange;
 }
 
-:root {
-  --primary: rgb(19, 19, 19);
-  --secondary: rgb(238, 238, 238);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  color: var(--secondary);
-  background-color: var(--primary);
-}
-
 ul {
   list-style-type: none;
 }
@@ -62,23 +40,17 @@ a {
 }
 
 a:hover {
-  color: orange;
+  color: rosybrown;
 }
 
-main {
-  min-height: 600px;
-  display: grid;
-  place-items: center;
+.iniciolink.active {
+  color: blueviolet;
 }
 
-.homelink.active {
-  color: orange;
-}
-
-.contactlink.active {
+.serviciostlink.active {
   color: green;
 }
 
-.aboutlink.active {
+.reservalink.active {
   color: blue;
 }

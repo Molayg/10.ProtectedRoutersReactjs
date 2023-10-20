@@ -1,11 +1,38 @@
-header {
+.headercontainer {
+  height: 150px;
   padding: 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 header > nav > ul {
   display: flex;
   gap: 20px;
 }
 
+m.logo {
+  width: 600px; /* Ajusta el ancho según sea necesario */
+  height: 500px; /* Mantener la proporción de aspecto */
+}
+.logo :hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes img-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
