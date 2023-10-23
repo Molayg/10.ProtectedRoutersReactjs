@@ -1,25 +1,42 @@
 .headercontainer {
-  height: 150px;
+  height: 480px;
   padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
 }
-header > nav > ul {
+.headercontainer {
+  flex-direction: row;
   display: flex;
-  gap: 20px;
+  justify-content: center;
+  width: 100%;
+}
+.headercontainer > nav > ul {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
 }
 
-m.logo {
-  width: 600px; /* Ajusta el ancho según sea necesario */
-  height: 500px; /* Mantener la proporción de aspecto */
+.headercontainer > nav > ul img.logo {
+  width: 290px; /* Ajusta el ancho según sea necesario */
+  height: 370px; /* Mantener la proporción de aspecto */
+  display: flex;
+  align-items: center;
 }
 .logo :hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
-.logo.react:hover {
+.logo:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+a:hover {
+  color: orange;
+}
+
+.activa {
+  color: orange;
 }
 
 @keyframes img-spin {

@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Inicio from "./components/pages/Inicio/Inicio";
 import Reserva from "./components/pages/Reserva/Reserva";
 import Servicios from "./components/pages/Servicios/Servicios";
+import Tienda from "./components/pages/Tienda/Tienda";
 
 const App = () => {
   return (
@@ -17,12 +18,5 @@ const App = () => {
     </>
   );
 };
-<Router>
-  <Routes>
-    <Route path="/" element={<Inicio />} />
-    <Route path="/reserva" element={<Reserva />} />
-    <Route path="/servicios" element={<Servicios />} />
-  </Routes>
-</Router>;
 
 export default App;

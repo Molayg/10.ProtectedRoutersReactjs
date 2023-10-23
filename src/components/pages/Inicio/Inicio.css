@@ -6,14 +6,24 @@ main {
   align-items: center;
 }
 
-h1 {
-  font-size: 50px;
-}
-.portada {
+.portadacontainer {
   width: 700px;
   height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 80px;
+}
+
+img.portada {
+  align-content: center;
+  margin-top: 200px;
+}
+.portadacontainer h1 {
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  margin-top: 200px;
+  color: wheat;
+  letter-spacing: 0.2em;
 }
